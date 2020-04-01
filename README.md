@@ -74,3 +74,11 @@ In order to ensure that the Laravel community is welcoming to all, please review
 
 If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
 
+## License
+
+The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+
+# laravel2020-C-G3
+laravel2020 class C Group 3. SI Klinik Penyakit Par.
+
+Amalia Nurbaeti, Ferian Andhika Toasi, Fathul Haris Stalas, Muhammad Ismail Yulianda.
