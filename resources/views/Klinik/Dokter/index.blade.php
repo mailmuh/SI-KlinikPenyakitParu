@@ -56,7 +56,6 @@
 								@foreach($datadokters as $d => $datadokter)
 								<tr>
 									<td>{{ $d+1 }}</td>
-									<!-- <td>{{ $datadokter->id_dokter }}</td> -->
 									<td>{{ $datadokter->nama_dokter }}</td>
 									<td>{{ $datadokter->ttl }}</td>
 									<td>{{ $datadokter->alamat }}</td>

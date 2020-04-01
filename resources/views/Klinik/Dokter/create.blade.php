@@ -40,10 +40,6 @@
 					<div class="card-body">
 						<form action="{{ route('datadokters.store') }}" method="POST">
 							@csrf
-							<!-- <div class="form-group">
-								<label>NIM</label>
-								<input type="text" name="nim" placeholder="Masukan Nim" class="form-control" required>
-							</div> -->
 							<div class="form-row">
 								<div class="form-group col-md-6">
 									<label>NAMA</label>
@@ -59,10 +55,6 @@
 									<label>AGAMA</label>
 									<input type="text" name="agama" placeholder="Masukan Agama Anda" class="form-control" required>
 								</div>
-								<!-- <div class="form-group col-md-6">
-									<label>SPESIALISASI</label>
-									<input type="text" name="spesialisasi" placeholder="Masukan Spesialis Anda" class="form-control" required>
-								</div> -->
 								<div class="form-group col-md-6">
 					                <label>Spesialisasi</label>
 					                <select name="spesialisasi" class="form-control" required>

@@ -34,7 +34,7 @@
 				</nav>
 				<div class="card">
 					<div class="card-header">
-						<center><strong>EDIT DATA DOKTERr</strong></center>
+						<center><strong>EDIT DATA DOKTER</strong></center>
 					</div>
 					<div class="card-body">
 						<form action="{{ route('datadokters.update', $datadokter->id_dokter) }}" method="POST">
@@ -55,16 +55,10 @@
 									<label>AGAMA</label>
 									<input type="text" name="agama" placeholder="Masukan Agama Anda" value="{{ $datadokter->agama }}" class="form-control">
 								</div>
-								<!-- <div class="form-group col-md-6">
-									<label>SPESIALISASI</label>
-									<input type="text" name="spesialisasi" placeholder="Masukan Spesialisasi Anda" value="{{ $datadokter->spesialisasi }}" class="form-control">
-								</div> -->
 								<div class="form-group col-md-6">
 					                <label>SPESIALISASI</label>
 					                <select name="spesialisasi" class="form-control" required>
 						                <option selected disabled>-- Pilih Spesialisasi --</option>
-						                
-						                <!-- <option value="Sp.P">Spesialis Penyakit Paru (Pulmonologi)</option> -->
 						                <option {{ $datadokter->spesialisasi ? "selected" : "" }} value="{{ $datadokter->spesialisasi }}">Spesialis Penyakit Paru (Pulmonologi)</option>
 					                </select>
 					            </div>
@@ -73,7 +67,6 @@
 								<div class="form-group col-md-6">
 									<label>ALAMAT</label>
 									<textarea class="form-control" name="alamat" rows="2" placeholder="Masukan Alamat Anda">{{ $datadokter->alamat }}</textarea>
-									<!-- <input type="text" name="alamat" placeholder="Masukan Alamat" value="{{ $datadokter->alamat }}" class="form-control"> -->
 								</div>
 							</div>
 							<button type="submit" class="btn btn-success">UPDATE</button>
